@@ -1,0 +1,11 @@
+{
+  "name": "async-is-fun",
+  "version": "1.0.0",
+  "description": "Asynchronus vs Synchronous exercise",
+  "main": "async.js",
+  "scripts": {
+    "test": "node asynch.js"
+  },
+  "author": "You!",
+  "license": "ISC"
+}
