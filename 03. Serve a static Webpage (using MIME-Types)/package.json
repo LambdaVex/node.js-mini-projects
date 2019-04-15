@@ -1,0 +1,11 @@
+{
+  "name": "file-web-server",
+  "version": "1.0.0",
+  "description": "A node.js server to serve static content",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "You!",
+  "license": "ISC"
+}
