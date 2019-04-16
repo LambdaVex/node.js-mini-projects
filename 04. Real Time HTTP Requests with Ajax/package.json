@@ -1,0 +1,11 @@
+{
+  "name": "online-document-editor",
+  "version": "1.0.0",
+  "description": "An online AJAX document editor",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "You!",
+  "license": "ISC"
+}
