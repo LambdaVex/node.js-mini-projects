@@ -6,3 +6,7 @@ https://nodejs.org/api/
 ```
 npm init <initializer>
 ``` 
+#### When you already have a package.json, then use the following to get what is missing:
+```
+npm install
+``` 
