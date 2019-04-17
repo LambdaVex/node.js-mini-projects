@@ -1,0 +1,417 @@
+.navbar-default {
+  background-color: #669999;
+  border-bottom: 3px solid #003333;
+  z-index: 1000;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover {
+  color: #ffffff;
+  background-color: #003333;
+}
+.navbar-default .navbar-brand:focus {
+	color: #ffffff;
+    background-color: #003333;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #ffffff;
+  background-color: #003333;
+}
+.navbar-default .navbar-nav > li > a:focus {
+	color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #ffffff;
+  background-color: #003333;
+}
+.navbar-default .navbar-nav > .active > a:focus {
+	color: #ffffff;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover{
+  color: #ffffff;
+  background-color: #003333;
+}
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover {
+  background-color: #003333;
+}
+.navbar-default .navbar-toggle:focus {
+	background-color: #003333;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+  background-color: #003333;
+}
+
+#name:hover {
+	background-color: #669999;
+}
+
+@media (max-width: 767px) {
+    
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff;
+    }
+    
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+        color: #ffffff;
+        background-color: #003333;
+    }
+    
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #ffffff;
+    }
+    
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover {
+        color: #ffffff;
+        background-color: #003333;
+    }
+  
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+		color: #ffffff;
+	}
+    
+    .navBtn {
+        border-bottom: 1px solid #003333;
+    }
+    
+    #contactBtn {
+        border-bottom: 0px;
+    }
+}
+
+.navBtn > a:hover {
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+	.navBtn {
+		border-left: 1px solid #003333;
+        width: 83px;
+        text-align: center
+	}
+	
+	#portfolioBtn {
+		border-right: 1px solid #003333;	
+	}
+	
+	#navBtns {
+		margin-right: 40px;	
+	}
+	
+	#name {
+		margin-left: 40px;
+	}
+}
+
+.centeredContainer {
+    display: flex;
+    align-items: center;
+}
+
+.centeredContent {
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+}
+
+
+#home {
+  	background: url(img/background1.jpg) no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+#homeContent {
+    color: white;
+    vertical-align: middle;
+	z-index: 100;
+}
+
+#homeContent > h1 {
+	font-size: 5.5vw;	
+}
+
+#homeContent > h2 {
+	font-size: 3vw;
+	border-top: 2px solid white;
+	width: 85%;
+	left: 7.5%;
+	padding-top: 15px;
+	position: relative;	
+}
+
+#socialMediaBtnsOuterContainer {
+    width: 60%;
+    position: relative;
+    left: 20%;
+}
+
+#socialMediaBtnsInnerContainer {
+    width: 31.5vw;
+    margin-top: 1vw;
+}
+
+.socialMediaBtn {
+    font-size: 1.25vw;
+    border-radius: 10px;
+    width: 15vw;
+    height: 2.75vw;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 2.75vw;
+    display: inline-block;
+    color: #003333;
+    padding: 0px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.socialMediaBtn > a {
+	background-color: white;
+    text-decoration: none;
+    color: #003333;
+    height: 2.75vw;
+    width: 15vw;
+    display: block;
+    border-radius: 10px;
+}
+
+.socialMediaBtn > a:hover {
+    background-color: #669999;
+    color: white;
+}
+
+#githubBtn {
+    margin-right: 1.5vw;
+}
+
+@media (max-width: 1120px){
+    
+    #socialMediaBtnsInnerContainer {
+        width: 360px;
+    }
+    
+    .socialMediaBtn {
+        width: 160px;
+        height: 29px;
+        line-height: 31px;
+        font-size: 14.2125px;
+    }
+    
+    .socialMediaBtn > a {
+        height: 29px;
+        width: 160px;
+    }
+}
+
+@media (max-width: 910px){
+    #githubBtn {
+        margin-right: 0px;
+        margin-bottom: 0.5vw;
+    }
+    #socialMediaBtnsInnerContainer {
+        width: 160px;
+    }
+    
+    #socialMediaBtnsOuterContainer {
+        left: 20%;
+    }
+}
+
+@media (max-width: 620px) {
+    #homeContent > h1 {
+        font-size: 34.1px;
+    }
+    #homeContent > h2 {
+        font-size: 18.6px;
+    }
+}
+
+
+
+#about {
+    background: url(img/background2.jpg) no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+#portfolio {
+	background-color: green;	
+}
+
+#contact {
+	background-color: blue;	
+}
+
+#aboutImageContainer {
+    height: 100%;
+}
+
+#aboutImageWrapper {
+    width: 58%;
+}
+
+#aboutImage {
+    width: 100%
+}
+
+#aboutTextContainer {
+    height: 100%;
+}
+
+#aboutText {
+    color: white;
+    margin-right: 10%;
+    position: relative;
+    top: -1%;
+}
+
+#aboutText > h1 {
+    font-size: 4vw;
+    padding-bottom: 15px;
+    border-bottom: 2px solid white;
+    width: 70%;
+    left: 15%;
+    position: relative;
+}
+
+#aboutText > h2 {
+    font-size: 1.5vw;
+}
+
+#aboutImage {
+    width: 100%;
+}
+
+@media (max-width: 1150px) {
+    #aboutImageWrapper {
+        width: 200px;
+    }
+}
+
+@media (max-width: 991px) {
+    #aboutImageContainer {
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+        display: table-row;
+        position: relative;
+    }
+    
+    #aboutTextContainer {
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+        display: table-row;
+        position: relative;
+    }
+    
+    #aboutImageWrapper {
+        position: relative;
+        margin-top: 20% !important;
+    }
+    
+    #aboutText {
+        margin: 0 auto;
+        padding: 0 auto;
+        position: relative;
+        top: 0px;
+    }
+    
+    #aboutImageWrapper,
+    #aboutImage {
+        margin: 0 auto;
+    }
+    
+    #about {
+        display: table;
+        align-items: center;
+    }
+    
+    #aboutText > h1 {
+        font-size: 39.36px;
+    }
+    
+    #aboutText > h2 {
+        font-size: 14.76px;
+    }
+    
+}
+
+#portfolio {
+	 background: url(img/background3.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#portfolioItemsContainer {
+	padding: 0px;
+	margin: 0 auto;
+	width: 100%;
+	color: white;
+}
+
+.leftPortfolioItem {
+    border-right: 0px solid white;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.rightPortfolioItem {
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.portfolioImg, .portfolioText {
+    padding: 5px;
+}
+
+.portfolioRow {
+	border-bottom: 0px solid white;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+.portfolioItemContainer {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;	
+}
+
+#portfolioBottomRow {
+	border-bottom: 0px;	
+}
