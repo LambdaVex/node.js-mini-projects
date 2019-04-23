@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+}
+
+button {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem 1.5rem;
+    font-size: 1rem;
+    line-height: 2.4;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    cursor: pointer;
+
+    position: relative;
+    top: -1px;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+input {
+    display: inline-block;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+input:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.overlay {
+    position: fixed;
+
+    background-color: rgba(0, 0, 0, 0.8);
+
+    width: 100%;
+    height: 100%;
+
+    top: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nameForm {
+
+    background-color: white;
+    border-radius: .25rem;
+
+    padding: 2rem;
+
+}
+.pageWrapper {
+
+    width: 1000px;
+    max-width: 100%;
+
+    margin: 0 auto;
+
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+
+}
+
+.messages {
+    width: 100%;
+    height: calc(100vh - 94px);
+
+    overflow-y: auto;
+}
+
+.chatMessage {
+
+    width: 100%;
+
+    padding: 20px 10px;
+    box-sizing: border-box;
+
+    border-bottom: 1px solid black;
+
+}
+
+h1 {
+
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+
+}
+
+p {
+    margin: 0;
+}
+
+.messageBox {
+
+    border-top: 1px solid black;
+
+    padding: 20px 10px;
+    box-sizing: border-box;
+
+    width: 100%;
+
+}
+
+.messageBox input {
+
+    width: calc(100% - 140px);
+
+}
+
