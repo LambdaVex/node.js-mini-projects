@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Chat App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="assets/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="pageWrapper">
+
+            <div class="messages">
+            </div>
+            <div class="messageBox">
+                <input placeholder="Enter a Message" id="msg">
+                <button id="submitMsg">Send</button>
+            </div>
+        </div>
+        <div class="overlay">
+            <div class="nameForm">
+                <input placeholder="Enter Your Name" id="name">
+                <button id="submitName">Submit</button>
+            </div>
+        </div>
+        <script src="assets/jquery.min.js"></script>
+        <script src="assets/socket.io.js"></script>
+        <script src="assets/script.js"></script>
+    </body>
+</html>
