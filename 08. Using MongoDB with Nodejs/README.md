@@ -13,7 +13,7 @@ mongodb.com >> download-center >> Server
 Program Files\MongoDB\Server\4.0\bin\mongod.exe
 ``` 
 
-##### You can use 
+##### You can use as a GUI (self tested)
 ```
 MongoDB Compass or Studio 3T
 ``` 
