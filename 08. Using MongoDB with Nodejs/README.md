@@ -1,5 +1,3 @@
-![Unbenannt](https://user-images.githubusercontent.com/6619191/56641997-d8bdc400-6676-11e9-859f-86cb60d0477d.PNG)
-
 ##### Get mongodb
 ```
 mongodb.com >> download-center >> Server
@@ -19,3 +17,6 @@ Program Files\MongoDB\Server\4.0\bin\mongod.exe
 ```
 MongoDB Compass or Studio 3T
 ``` 
+
+##### Comparison
+![Unbenannt](https://user-images.githubusercontent.com/6619191/56641997-d8bdc400-6676-11e9-859f-86cb60d0477d.PNG)
