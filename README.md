@@ -9,6 +9,10 @@ https://nodejs.org/api/
 ```
 npm init <initializer>
 ``` 
+#### or faster
+```
+npm init -y
+``` 
 #### When you already have a package.json, then use the following to get what is missing:
 ```
 npm install
