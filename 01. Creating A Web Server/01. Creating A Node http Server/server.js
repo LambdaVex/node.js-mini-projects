@@ -18,6 +18,10 @@ http.createServer(function(req, res){
     m = checkTime(m);
     s = checkTime(s);
 
+	// You can do Stuff like
+	// console.log('incoming request!'); // When you get a request this will be written on the server terminal  
+	// res.write("Got your request"); // Sends back to user 
+
     res.end("Hello at " + h + ":" + m + ":" + s);
 
 }).listen(8584);
