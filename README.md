@@ -33,4 +33,7 @@ https://www.npmjs.com
 ```
 npm install chalk@2.4.1
 >> This will install this particular version. Information will be added to your package.json, so whenever you use 'npm install' it is fetched again. 
+
+npm i nodemon -g
+>> This will install the package globally on your operating system, note that your 'package.json' won't be changed
 ```
