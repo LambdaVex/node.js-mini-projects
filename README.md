@@ -17,3 +17,11 @@ npm init -y
 ```
 npm install
 ``` 
+#### Find the suitable Api 
+```
+https://nodejs.org/en/docs/
+```
+#### Grab the right npm packages
+```
+https://www.npmjs.com
+```
