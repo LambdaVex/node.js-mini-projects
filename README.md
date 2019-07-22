@@ -25,3 +25,7 @@ https://nodejs.org/en/docs/
 ```
 https://www.npmjs.com
 ```
+#### You can specify a version, ex.
+```
+npm install chalk@2.4.1
+```
