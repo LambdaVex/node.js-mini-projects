@@ -28,4 +28,5 @@ https://www.npmjs.com
 #### You can specify a version, ex.
 ```
 npm install chalk@2.4.1
+>> This will install this particular version. Information will be added to your package.json, so whenever you use 'npm install' it is fetched again. 
 ```
