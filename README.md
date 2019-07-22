@@ -17,6 +17,10 @@ npm init -y
 ```
 npm install
 ``` 
+#### Run your app:
+```
+node app.js
+``` 
 #### Find the suitable Api 
 ```
 https://nodejs.org/en/docs/
